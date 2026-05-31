@@ -1,0 +1,54 @@
+{
+  "schedule": {
+    "tweetsPerDay": 4,
+    "jitterMinutes": 30,
+    "slots": [
+      "gm",
+      "midday",
+      "afternoon",
+      "gn"
+    ]
+  },
+  "pillars": [
+    {
+      "id": "gm",
+      "priority": "high",
+      "weight": 1,
+      "examples": [
+        "short gm to the chat"
+      ]
+    },
+    {
+      "id": "lore",
+      "priority": "normal",
+      "weight": 2,
+      "examples": [
+        "tell a tiny story about $et"
+      ]
+    },
+    {
+      "id": "shitpost",
+      "priority": "normal",
+      "weight": 3,
+      "examples": [
+        "one-liner in character"
+      ]
+    },
+    {
+      "id": "engagement",
+      "priority": "normal",
+      "weight": 2,
+      "examples": [
+        "ask the community a low-stakes question"
+      ]
+    },
+    {
+      "id": "gn",
+      "priority": "high",
+      "weight": 1,
+      "examples": [
+        "short gn signoff"
+      ]
+    }
+  ]
+}

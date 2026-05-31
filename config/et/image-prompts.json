@@ -1,0 +1,11 @@
+{
+  "genStack": "sdxl",
+  "loras": [
+    "mspaint-doodle",
+    "low-effort-meme"
+  ],
+  "falScale": 0.9,
+  "negPrompt": "photo, photorealistic, 3d, clean lines, professional",
+  "bankFirst": true,
+  "fallbackToTextOnFailure": true
+}

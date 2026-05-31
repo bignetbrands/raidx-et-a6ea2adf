@@ -1,0 +1,23 @@
+{
+  "name": "raidx-bot-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.34.0",
+    "next": "16.2.6",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "twitter-api-v2": "^1.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}

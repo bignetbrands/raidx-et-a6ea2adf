@@ -1,0 +1,10 @@
+:root {
+  --bg: #0a0a0a;
+  --text: #ededed;
+  --muted: #8a8a8a;
+  --accent: #bef264;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
+a { color: var(--accent); }
+.mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; }
